@@ -1,0 +1,202 @@
+
+html , body {
+    margin : 0px
+}
+
+header{
+    background-color:06d822;
+    height:85px;
+    width: 100%;
+    position: fixed;
+    z-index:10;
+}
+
+#logo{
+    width:75px;
+    position: absolute;
+    top:5px;
+    margin-left: 5%;
+    
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-left: 5%;
+    
+}
+li{
+    float: left;
+    padding: 10  20   10   20 ;
+    font-family: arial;
+    
+}
+li:hover {
+    background-color:white;
+    padding: 10px;
+
+}
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 55px;
+}
+#Subtitulo{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+}
+#acao{
+    color: white;
+    border:1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+.icone{
+    width: 51px;
+}
+#projeto {
+    background-color: white;
+    padding: 20px;
+}
+#selecao {
+    padding:10px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    
+}
+    
+#sobre { 
+    background-color: rgb(133, 247, 110);
+    padding: 10px;
+}
+.coluna{
+    float:left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    text-align: justify;
+    
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.coluna4 {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 5 20px 0;
+    position: relative;
+    display: table;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    display: block;
+}
+.centro ,h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+    outline: none;
+}
+.colunadois {
+    background-color:80eb65;
+    padding:0 5%;
+    float:left;
+    position: relative;
+    width: 40%;
+    
+}
+
+.colunatres {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+.colunatres {
+    display: block;
+    font-size: 15px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.coluna, .colunadois, .colunatres, .coluna4 , .centro,h1{
+    font-family: arial;
+}
+
+
+h3{
+    font-family: arial;
+}
+
+
+#imagemfundo {
+    height: 100%;
+    background: url("img\Agricultura-Rural.jpg");
+    text-align: center;
+    background-size: cover;
+}
+
+
+@media all and (max-width:760px){
+    #menu{ visibility:hidden}
+    .coluna , .coluna4, .colunadois , .colunatres, .icone, .centralizado, .justificado, h3,section, .centro {
+      display:block;
+      width: 80%;
+      padding: 0;
+      margin: 10px auto;
+      float: none;}
+
+    #logodiv{
+        width:100% ;
+        border: 1px;
+        position: relative;
+        text-align: center;}
+#logo{
+    margin-left: 0px;
+    transform: translateX(-50%);}
+.icone{
+    width: 40%;}
+.eu{width: 100%;}
+}
+
+.eu{ padding: 10px;}
